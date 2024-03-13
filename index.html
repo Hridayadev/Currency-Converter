@@ -13,7 +13,7 @@
     <form action="">
         <div class="amount">
             <p>Enter Amount</p>
-            <input type="text" value="500">
+            <input type="text" class="input" value="500">
         </div>
         <div class="dropdown">
             <div class="from">
@@ -21,10 +21,7 @@
                 <div class="select-container">
                     <img src="https://flagsapi.com/US/flat/64.png" alt="">
                     <select name="from" id="">
-                        <option value="USD">USD</option>
-                        <option value="NPR">NPR</option>
-                        <option value="EUR">EUR</option>
-                        <option value="INR">INR</option>
+
                     </select>
                 </div>
             </div> 
@@ -35,19 +32,16 @@
                 <p>To</p>
                 <div class="select-container">
                     <img src="https://flagsapi.com/NP/flat/64.png" alt="">
-                    <select name="from" id="">
-                        <option value="NPR" selected>NPR</option>
-                        <option value="USD">USD</option>
-                        <option value="EUR">EUR</option>
-                        <option value="INR">INR</option>
+                    <select name="to" id="">
+
                     </select> 
             </div>
         </div>
     </div>
-    <div class="msg">1USD =130NPR</div>
-    <button>Get Exchange Rate</button>
+    <div class="msg">Click <i class="fa-solid fa-arrow-down"></i> to Convert  </div>
+    <button class="btn">Get Exchange Rate</button>
     </form>
-    
+    <script src="code.js"></script>
     <script src="app.js"></script>
 </body>
 </html>
